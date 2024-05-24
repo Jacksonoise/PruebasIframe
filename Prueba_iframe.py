@@ -29,7 +29,7 @@ time.sleep(5)
 btn_idioma = driver.find_element(By.XPATH,'//*[@id="main_navbar"]/ul/li[7]/div/a')
 btn_idioma.click()
 time.sleep(5)
-btn_idioma.send_keys("Português"+Keys.ARROW_DOWN+Keys.ENTER)
+btn_idioma.send_keys("Português"+Keys.TAB+Keys.ENTER)
 
 #Se agrega esta funcion de javacript para que haga scroll en la pag
 driver.execute_script("window.scrollBy(0, 700);")
